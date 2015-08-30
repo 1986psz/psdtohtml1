@@ -1,0 +1,75 @@
+footer{
+    background: none repeat scroll 0 0 $first-color;
+    div[id^=footerImg]{
+        height:100px;
+        width:100px;
+        background-color: white;
+        border:6px solid $first-color;
+    }
+    #footerImg1{
+        float:left;
+        position:relative;
+        top:-50px;
+        &:after{
+            content:"";
+            position:absolute;
+            top:25px;
+            bottom:15px;
+            left:20px;
+            right:20px;
+            background-color: red;
+            background:url(../images/sprite.png);
+            background-position: 0px -222px;
+            background-repeat: no-repeat;
+        }
+    }
+    #footerImg2{
+        margin:0 auto;
+        position:relative;
+        top:-50px;
+        &:after{
+            content:"";
+            position:absolute;
+            top:25px;
+            bottom:25px;
+            left:25px;
+            right:25px;
+            background-color: red;
+            background:url(../images/sprite.png);
+            background-position: 0px -271px;
+            background-repeat: no-repeat;
+        }
+    }
+    #footerImg3{
+        float:right;
+        position:relative;
+        top:-50px;
+        &:after{
+            content:"";
+            position:absolute;
+            top:25px;
+            bottom:25px;
+            left:35px;
+            right:25px;
+            background-color: red;
+            background:url(../images/sprite.png);
+            background-position: 0px -319px;
+            background-repeat: no-repeat;
+        }
+    }
+    #author{
+        text-align: left;
+        padding-top:25px;
+        padding-bottom:75px;
+    }
+    #company{
+        text-align: right;
+        padding-top:25px;
+        padding-bottom:75px;
+    }
+    span{
+        color:white;
+        font-size:24px;
+        font-family: $font-rokkitt;
+    }
+}

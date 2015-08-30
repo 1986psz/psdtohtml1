@@ -1,0 +1,157 @@
+#gallery{
+    padding-top:147px;
+    text-align: center;
+    .imgContainer{
+        padding-bottom:55px;
+    }
+    .imgLeft{
+        padding-right:80px;
+    }
+    .imgRight{
+        padding-left:80px; 
+    }
+    .imgCover{
+        max-width:100%;
+        cursor: pointer;
+        position:relative;
+        background-color: rgba(224, 183, 181,0);
+        img{
+            position:relative;
+            z-index: -2;
+        }
+        .imgLabel{
+            text-align:left;
+            padding-left:20px;
+            position:absolute;
+            bottom:0;
+            left:0;
+            height:90px;
+            width:100%;
+            bottom:0;
+            background-color:$first-color;
+            z-index: -1;
+            overflow:hidden;
+            white-space:nowrap;
+            .imgTitle{
+                color:white;
+                font-size:30px;
+                font-family:$font-rokkitt;
+                position:absolute;
+                bottom:45px;
+            }
+            .imgDescription{
+                color: #297465;
+                font-size:15px;
+                font-family: $font-myriadpro;
+                position:absolute;
+                top:55px;
+            }
+        }
+        .imgZoomIcon{
+            position:absolute;
+            z-index: -1;
+            top:20px;
+            right:20px;
+            height:40px;
+            width:40px;
+            background-color: $first-color;
+            span{
+                display:block;
+                width:16px;
+                height:16px;
+                background-image: url(../images/sprite.png);
+                background-position: 0px -367px;
+                background-repeat: no-repeat;
+                position:relative;
+                left:12px;
+                top:12px;
+            } 
+        }
+    }
+    
+    #galleryBtn{
+        margin-top:20px;
+        margin-bottom:75px;
+        display:inline-block;
+        line-height:57px;
+        width:218px;
+        height:57px;
+        color:white;
+        background-color: $first-color;
+        box-shadow: none;
+        border: medium none;
+        font-size:24px;
+        font-weight:400;
+        font-family:$font-rokkitt;
+        &:hover,visited,link,active{
+            text-decoration: none;
+        }
+        span{
+            display:inline-block;
+            width:24px;
+            height:22px;
+            background-image: url(../images/sprite.png);
+            background-position: 0px -393px;
+            background-repeat: no-repeat;
+            position:relative;
+            left:12px;
+            top:2px;
+        }   
+    }
+    #horizontalRule{
+        border-bottom:1px solid #e4e8e8;
+    }
+    
+    //media- base styles- changing later
+    .imgContainer{
+        padding-left:0;
+        padding-right:0;
+    }
+    .imgCover{
+        display:inline-block;
+    }
+    /*label for images*/
+    .imgCover .imgLabel{
+        bottom:-90px;
+    }
+    .imgContainer{
+        padding-bottom:145px;
+    }
+    
+    //media for and above breakpoint-tablet (768px)
+    //@media screen and (min-width:768px)  {  
+    @media screen and (min-width:($breakpoint-tablet)+px)  {  
+        .imgLeft{
+            padding-left:0;
+            padding-right:15px;
+        }
+        .imgRight{
+            padding-left:15px;
+            padding-right:0;
+        }
+        .imgCover{
+            display:block;
+        }
+    }
+    //media for and above breakpoint-desktop (1000px)
+    //@media screen and (min-width:1000px)  {  
+    @media screen and (min-width:($breakpoint-desktop)+px)  { 
+        .imgLeft{
+            padding-left:0;
+            padding-right:80px;
+        }
+        .imgRight{
+            padding-left:80px;
+            padding-right:0;
+        }
+        /*label for images*/
+        .imgCover .imgLabel{
+            bottom:0px;
+        }
+        .imgContainer{
+            padding-bottom:90px;
+        }
+    }
+    
+    
+}

@@ -1,0 +1,65 @@
+#contact{
+    padding-top:75px;
+    padding-bottom:150px;
+    h2{
+        color:$first-color;
+        text-align: center;
+        text-align: center;
+        font-family: $font-rokkitt;
+        font-size: 39px;
+        font-weight: 400;
+        padding-bottom:75px;
+    }
+    input{
+        border:none;
+        width:100%;
+        height:73px;
+        font-size:31px;
+        font-weight: 400;
+        font-family:$font-rokkitt;
+        background-color: rgb(226,230,230);
+        padding-left:30px;
+        @include input-placeholder {
+            color: #cecece;
+        }
+    }
+    #leftInputWrapper{
+        position:relative;
+        margin-bottom:30px;
+    }
+    #rightInputWrapper{
+        position:relative;
+        margin-bottom:30px;
+    }
+    textarea{
+        position:relative;
+        border:none;
+        padding:30px;
+        width:100%;
+        height:250px;
+        resize: none;
+        font-size:31px;
+        font-weight: 400;
+        font-family:$font-rokkitt;
+        background-color: rgb(226,230,230);
+        @include input-placeholder {
+            color: #cecece;
+        }
+    }
+    //media- base styles- changing later
+    #leftInputWrapper,#rightInputWrapper{
+        margin-left:0;
+        margin-right:0;
+    }
+    //media for and above breakpoint-tablet (768px)
+    //@media screen and (min-width:768px){  
+    @media screen and (min-width:($breakpoint-tablet)+px)  {  
+        #leftInputWrapper{
+            margin-right:15px;
+        }
+        #rightInputWrapper{
+            margin-left:15px;
+        }
+    }
+    
+}

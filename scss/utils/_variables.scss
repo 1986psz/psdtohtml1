@@ -1,0 +1,13 @@
+$breakpoint-mobile:480;
+$breakpoint-tablet:768;
+$breakpoint-desktop:1000;
+$breakpoint-large:1200;
+$first-color:#1abc9c;
+$text-color:#95a5a6;
+
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+$font-rokkitt: 'Rokkitt',Cambria, serif;   
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+$font-quicksand:'Quicksand',Calibri,Verdana, sans-serif;
+$font-myriadpro:'Myriad Pro',Helvetica,Verdana,sans-serif; 

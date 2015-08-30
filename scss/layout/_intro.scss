@@ -1,0 +1,93 @@
+#intro{
+    padding-top:153px;
+    h2{
+        color:$first-color;
+        text-align: center;
+        text-align: center;
+        font-family:$font-myriadpro;
+        font-size: 36px;
+        font-weight: 700;
+    }
+    #textIntro{
+        color:$text-color;
+        padding-top:55px;
+        text-align: center;
+        font-family:$font-myriadpro;
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .colImg{
+        margin:0 auto;
+        text-align: center;
+        height:64px;
+        width:64px;
+        background-color: yellow;
+    }
+    h4{
+        padding-top:31px;
+        text-align: center;
+        font-size:20px;
+        color:$first-color;
+        font-weight: 700;
+        font-family: Verdana,sans-serif;
+    }
+    .colText{
+        font-size: 15px;
+        color:$text-color;
+        font-family: $font-myriadpro;
+        text-align: justify;
+        line-height: 29px;   
+        font-weight: 400;
+        padding-top:31px;
+    }
+    .column1{
+        position:relative;
+        padding-top:75px;
+        padding-right:70px;
+        .colImg{
+            background:url(../images/sprite.png);
+            background-position: 0px 0px;
+            background-repeat: no-repeat;
+        }
+    }
+    .column2{
+        position:relative;
+        padding-top:75px;
+        padding-left:35px;
+        padding-right:35px;
+        .colImg{
+            background:url(../images/sprite.png);
+            background-position: 0px -74px;
+            background-repeat: no-repeat;
+        }
+    }
+    .column3{
+        position:relative;
+        padding-top:75px;
+        padding-left:70px;
+        .colImg{
+            background:url(../images/sprite.png);
+            background-position: 0px -148px;
+            background-repeat: no-repeat;
+        }
+    }
+    @media screen and (max-width: (($breakpoint-desktop)-1)+px ) {
+        .column1{
+            padding-left:0;
+            padding-right:0;
+        }
+        .column2{
+            padding-left:0;
+            padding-right:0;
+        }
+        .column3{
+            padding-left:0;
+            padding-right:0;
+        }
+    }
+    
+    
+    
+  
+    
+}
