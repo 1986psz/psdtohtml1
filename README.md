@@ -1,5 +1,5 @@
 # psdtohtml1
-Link: http://pszalewski86.github.io/psdtohtml1/<br /><br />
+Link: http://pawelsz1986.github.io/psdtohtml1/<br /><br />
 This project shows my implementation of free PSD I got from that site:  
 http://freebiesbug.com/psd-freebies/variety-free-psd-website-template/<br />
 <br />
