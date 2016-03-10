@@ -1,0 +1,18 @@
+/*@import 'compass';
+
+@import 'utils/variables';
+@import 'utils/functions';
+@import 'utils/mixins';
+
+@import 'vendors/bootstrap-grid';
+//reset
+@include global-reset();
+//layout
+@import 'layout/general';
+@import 'layout/header';
+@import 'layout/intro';
+@import 'layout/gallery';
+@import 'layout/contact';
+@import 'layout/footer';
+@import 'layout/myModal';
+*/
