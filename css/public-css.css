@@ -1425,10 +1425,17 @@ header {
     font-weight: 400;
     font-family: "Rokkitt", Cambria, serif;
     background-color: #e2e6e6;
-    padding-left: 30px;
-    /*@include input-placeholder {
-            color: #cecece;
-        }*/ }
+    padding-left: 30px; }
+    #contact input::-webkit-input-placeholder {
+      color: #cecece; }
+    #contact input:-moz-placeholder {
+      color: #cecece;
+      opacity: 1; }
+    #contact input::-moz-placeholder {
+      color: #cecece;
+      opacity: 1; }
+    #contact input:-ms-input-placeholder {
+      color: #cecece; }
   #contact #leftInputWrapper {
     position: relative;
     margin-bottom: 30px; }
@@ -1445,10 +1452,17 @@ header {
     font-size: 31px;
     font-weight: 400;
     font-family: "Rokkitt", Cambria, serif;
-    background-color: #e2e6e6;
-    /*@include input-placeholder {
-            color: #cecece;
-        }*/ }
+    background-color: #e2e6e6; }
+    #contact textarea::-webkit-input-placeholder {
+      color: #cecece; }
+    #contact textarea:-moz-placeholder {
+      color: #cecece;
+      opacity: 1; }
+    #contact textarea::-moz-placeholder {
+      color: #cecece;
+      opacity: 1; }
+    #contact textarea:-ms-input-placeholder {
+      color: #cecece; }
   #contact #leftInputWrapper, #contact #rightInputWrapper {
     margin-left: 0;
     margin-right: 0; }
