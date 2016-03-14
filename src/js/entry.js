@@ -1,13 +1,26 @@
-require("./../scss/main.scss");
+require('./../scss/main.scss');
+require('./vendors/TweenMax.min.js');
+require('./vendors/jquery.superscrollorama.js');
+require('./vendors/bootstrap.min.js');
 
-/*var content = require('./content.js');
-var module1 = require('./module1.js');
+var helper = require('./project/helper.js');
+var animations = require('./project/animations.js');
+var hovers = require('./project/hovers.js');
+var myModal = require('./project/myModal.js');
 
-document.writeln("It works from (entry.js.)!");
-
-$('body').append(
-	content.el1,
-    content.el2,
-    module1.el1
-);
-*/
+console.log('entry works11');
+/*$(function() {
+    myModal.modalInit();
+});*/
+$(function() {
+    helper.generalInit();
+    myModal.modalInit();
+    if( ((window.innerWidth) > 999)&&(!(helper.isMobile())) ){
+        //probably device not mobile- load advanced visual effects
+        hovers.hoversInit();
+        animations.animationsInit();
+    }
+});
+$(window).resize(function() {
+    helper.refreshWindow();
+});
