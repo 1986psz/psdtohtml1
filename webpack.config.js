@@ -33,6 +33,10 @@ module.exports = {
         new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery"
-        })
+        }),
+        new webpack.optimize.UglifyJsPlugin({
+			output: { comments: false },
+			exclude: [ /\.min\.js$/gi ]		// skip pre-minified libs
+		})
     ] 
 };
