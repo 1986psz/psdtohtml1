@@ -8,19 +8,15 @@ var animations = require('./project/animations.js');
 var hovers = require('./project/hovers.js');
 var myModal = require('./project/myModal.js');
 
-console.log('entry works11');
-/*$(function() {
-    myModal.modalInit();
-});*/
-$(function() {
-    helper.generalInit();
-    myModal.modalInit();
-    if( ((window.innerWidth) > 999)&&(!(helper.isMobile())) ){
-        //probably device not mobile- load advanced visual effects
-        hovers.hoversInit();
-        animations.animationsInit();
-    }
-});
+helper.generalInit(); 
+myModal.modalInit();
+
+if( ((window.innerWidth) > 999)&&(!(helper.isMobile())) ){
+    //probably device not mobile- load advanced visual effects
+    hovers.hoversInit();
+    animations.animationsInit();
+}
+
 $(window).resize(function() {
     helper.refreshWindow();
 });
