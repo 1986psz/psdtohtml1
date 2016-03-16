@@ -13,4 +13,14 @@ I'm using here:<br />
   * Bootstrap (for modals in lightbox) <br />
   * TweenMax plugin (for animations) <br />
   * SuperScrollorama plugin (for triggering animations on scroll) <br />
-* Webpack
+* Webpack<br /><br />
+Development:<br />
+* git clone https://github.com/pawelsz1986/psdtohtml1.git
+* npm install
+* npm start
+<h2>h2 asdf</h2>
+<h3>h2 asdf</h3>
+<ul>
+    <li>one</li>
+    <li>two</li>
+</ul>
