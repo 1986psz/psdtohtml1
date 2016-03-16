@@ -13,4 +13,4 @@ I'm using here:<br />
   * Bootstrap (for modals in lightbox) <br />
   * TweenMax plugin (for animations) <br />
   * SuperScrollorama plugin (for triggering animations on scroll) <br />
- 
+* Webpack
