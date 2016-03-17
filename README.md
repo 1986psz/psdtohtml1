@@ -23,9 +23,7 @@ http://freebiesbug.com/psd-freebies/variety-free-psd-website-template/</p>
 
 <h4>Development:</h4>
 <ul>
-    <ul>
-        <li>git clone https://github.com/pawelsz1986/psdtohtml1.git</li>
-        <li>npm install</li>
-        <li>npm start</li>
-    </ul>
+    <li>git clone https://github.com/pawelsz1986/psdtohtml1.git</li>
+    <li>npm install</li>
+    <li>npm start</li>
 </ul>
