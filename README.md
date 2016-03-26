@@ -18,7 +18,7 @@ http://freebiesbug.com/psd-freebies/variety-free-psd-website-template/</p>
             <li>SuperScrollorama plugin (for triggering animations on scroll)</li>
         </ul>
     </li>
-    <li>Webpack</li>
+    <li>Webpack (configuration in progress)</li>
 </ul>
 
 <h4>Development:</h4>
