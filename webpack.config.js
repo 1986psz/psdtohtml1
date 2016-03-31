@@ -5,7 +5,7 @@ var path = require('path');
 module.exports = {
     entry: __dirname+"/src/js/entry.js",
     output: {
-        path: __dirname+'/public',
+        path: __dirname+'/src',
         filename: "bundle.js"
         //publicPath: __dirname+'/public'
     },
@@ -33,10 +33,6 @@ module.exports = {
         new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery"
-        })/*,
-        new webpack.optimize.UglifyJsPlugin({
-			output: { comments: false },
-			exclude: [ /\.min\.js$/gi ]		// skip pre-minified libs
-		})*/
+        })
     ] 
 };
