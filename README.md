@@ -18,12 +18,19 @@ http://freebiesbug.com/psd-freebies/variety-free-psd-website-template/</p>
             <li>SuperScrollorama plugin (for triggering animations on scroll)</li>
         </ul>
     </li>
-    <li>Webpack</li>
+    <li>Webpack- for development environment:
+        <ul>
+            <li>auto refresh (webpack-dev-server)</li>
+            <li>SASS compilation</li>
+            <li>javascript bundling</li>
+        </ul>
+    </li>
 </ul>
 
 <h4>Development:</h4>
 <ul>
     <li>git clone https://github.com/pawelsz1986/psdtohtml1.git</li>
     <li>npm install</li>
-    <li>npm start</li>
+    <li>npm start (for development environment)</li>
+    <li>webpack (to emit compiled files)</li>
 </ul>
