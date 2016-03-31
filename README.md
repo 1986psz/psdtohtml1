@@ -29,9 +29,9 @@ http://freebiesbug.com/psd-freebies/variety-free-psd-website-template/</p>
 
 <h4>Development:</h4>
 <ul>
-    <li>git clone https://github.com/pawelsz1986/psdtohtml1.git</li>
-    <li>npm install</li>
-    <li>npm start (for development environment)</li>
-    <li>webpack (to emit compiled files)</li>
+    <li><b>git clone https://github.com/pawelsz1986/psdtohtml1.git</b></li>
+    <li><b>npm install</b></li>
+    <li><b>npm start</b> (for development environment)</li>
+    <li><b>webpack</b> (to emit compiled files)</li>
 </ul>
 
