@@ -1,5 +1,5 @@
 <h1>psdtohtml1</h1>
-<p><a href="http://pawelsz1986.github.io/psdtohtml1/">Demo</a></p>
+<p><a href="http://1986psz.github.io/psdtohtml1/">Demo</a></p>
 <p>This project shows my implementation of free PSD I got from that site:  
 http://freebiesbug.com/psd-freebies/variety-free-psd-website-template/</p>
 <h4>I'm using here:</h4>
